@@ -5,3 +5,7 @@
 /This.L42
 /This.V42
 /javafx/
+
+!AAACustomTest.L42
+!bin/adamsTowel02/libTests/AAACustomTest.L42
+!**/AAACustomTest.L42

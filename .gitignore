@@ -28,3 +28,5 @@ hs_err_pid*
 #42 Cache
 /Tests/L42IDE/L42.is%2FAdamTowel02/
 
+
+!Tests/bin/adamsTowel02/libTests/AAACustomTest.L42

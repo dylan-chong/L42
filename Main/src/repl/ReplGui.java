@@ -68,6 +68,12 @@ public class ReplGui extends Application {
 
   Tab selectedTab=null;
 
+  @Override
+	public void init() throws Exception {
+		// TODO Auto-generated method stub
+		super.init();
+	}
+  
   @SuppressWarnings("unchecked")
   public static <T>T runAndWait(int operations,Function<CountDownLatch,T>task){
     assert !Platform.isFxApplicationThread();
@@ -81,6 +87,11 @@ public class ReplGui extends Application {
 
   @Override
   public void start(Stage primaryStage) throws Exception {
+	  
+	  
+	  if (true) throw new Error();
+	  
+	  
     assert Platform.isFxApplicationThread();
     ReplMain.gui=this;
     stage=primaryStage;
